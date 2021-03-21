@@ -1,25 +1,22 @@
-div {
-    padding: 0px;
-    margin: 0px;
-  }
+body {
+  margin: 0;
+}
   
   .container {
-    border: solid 1px gray;
     display: flex;
-    width: 320px;
-    height: 160px;
+    width: 100vw;
+    height: 100vh;
   }
   
   .pain {
     height: 100%;
     overflow-y: scroll;
-    border: 1px solid blue;
   }
   
   .left {
-    width: 30%;
+    width: 25%;
   }
   
   .right {
-    width: 70%;
+    width: 25%;
   }

@@ -1,11 +1,26 @@
-html,
-body,
-.mv {
-  height: 100%;
+body {
+  margin: 0;
+  min-height: 90vh;
+  min-height: -webkit-fill-available;
 }
-
-.mv { 
-  height: 100vh; 
-  height: -webkit-fill-available;
-  background-image: url(../image/smartphone.jpg); 
-}
+  
+  .container {
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    min-height: -webkit-fill-available;
+  }
+  
+  .pain {
+    height: 90vh;
+    overflow-y: scroll;
+    min-height: -webkit-fill-available;
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 25%;
+  }
